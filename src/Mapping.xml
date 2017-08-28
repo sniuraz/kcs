@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+        <class name="com.kcs.database.User" table="users">
+            <id name="id">
+                <generator class="assigned"></generator>
+            </id>            
+            <property name="firstName"></property>
+            <property name="lastName"></property>
+            <property name="email"></property>
+            <property name="address"></property>
+            <property name="phone"></property>
+            <property name="uname"></property>
+            <property name="pass"></property>
+        </class>
+</hibernate-mapping>
